@@ -1,0 +1,103 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Baseline_v2.3/mips_cpu/simulation/modelsim
+vsdram_sdram_controller
+Z1 !s110 1617850232
+!i10b 1
+!s100 `BjE3;aU`kdeBBdj34DUC0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I`5Ok5]i?Nmjz3@f8lULo>1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1617647122
+Z5 8D:/Baseline_v2.3/mips_cpu/sdram/simulation/submodules/sdram_sdram_controller.v
+Z6 FD:/Baseline_v2.3/mips_cpu/sdram/simulation/submodules/sdram_sdram_controller.v
+!i122 4
+L0 159 550
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1617850232.000000
+Z9 !s107 D:/Baseline_v2.3/mips_cpu/sdram/simulation/submodules/sdram_sdram_controller.v|
+Z10 !s90 -reportprogress|300|D:/Baseline_v2.3/mips_cpu/sdram/simulation/submodules/sdram_sdram_controller.v|-work|sdram_controller|
+!i113 1
+Z11 o-work sdram_controller
+Z12 tCvgOpt 0
+vsdram_sdram_controller_input_efifo_module
+R1
+!i10b 1
+!s100 J8OX7[7kF>BNelhCRjKZo2
+R2
+Id91j42o=HVEL8C_bQ@aoP3
+R3
+R0
+R4
+R5
+R6
+!i122 4
+L0 21 128
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vsdram_sdram_controller_test_component
+R1
+!i10b 1
+!s100 @a1@Z8NSO2W9RQ?mXJam20
+R2
+IKnf9bF=mg9Y<aF`4WJJZB1
+R3
+R0
+R4
+Z13 8D:/Baseline_v2.3/mips_cpu/sdram/simulation/submodules/sdram_sdram_controller_test_component.v
+Z14 FD:/Baseline_v2.3/mips_cpu/sdram/simulation/submodules/sdram_sdram_controller_test_component.v
+!i122 5
+L0 114 161
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/Baseline_v2.3/mips_cpu/sdram/simulation/submodules/sdram_sdram_controller_test_component.v|
+Z15 !s90 -reportprogress|300|D:/Baseline_v2.3/mips_cpu/sdram/simulation/submodules/sdram_sdram_controller_test_component.v|-work|sdram_controller|
+!i113 1
+R11
+R12
+vsdram_sdram_controller_test_component_ram_module
+R1
+!i10b 1
+!s100 OdAG6jH?D=6MjJilJ^OX;2
+R2
+I[9o3N=edg6h45>mUHK:BS0
+R3
+R0
+R4
+R13
+R14
+!i122 5
+L0 21 83
+R7
+r1
+!s85 0
+31
+R8
+Z16 !s107 D:/Baseline_v2.3/mips_cpu/sdram/simulation/submodules/sdram_sdram_controller_test_component.v|
+R15
+!i113 1
+R11
+R12

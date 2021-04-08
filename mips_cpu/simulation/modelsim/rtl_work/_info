@@ -1,0 +1,1983 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Baseline_v2.3/mips_cpu/simulation/modelsim
+valu
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 DXx4 work 12 mips_cpu_pkg 0 22 T:nSBB<=UbJi[O>zl`=Xo0
+Z3 DXx4 work 13 mips_core_pkg 0 22 =L]B5NoPPFGX9oi^BJQJC3
+Z4 DXx4 work 11 alu_sv_unit 0 22 :A126WS@hBHTzbmk>G45K1
+Z5 !s110 1617850234
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 SfMz]AV]?1X]o0A;D3<7W2
+ISzT1Gl4XQk8mNIjGj0mml0
+Z7 !s105 alu_sv_unit
+S1
+R0
+Z8 w1617646763
+Z9 8D:/Baseline_v2.3/mips_cpu/mips_core/alu.sv
+Z10 FD:/Baseline_v2.3/mips_cpu/mips_core/alu.sv
+!i122 13
+L0 41 79
+Z11 OV;L;2020.1;71
+31
+Z12 !s108 1617850234.000000
+Z13 !s107 D:/Baseline_v2.3/mips_cpu/mips_core/../mips_cpu.svh|D:/Baseline_v2.3/mips_cpu/mips_core/mips_core.svh|D:/Baseline_v2.3/mips_cpu/mips_core/alu.sv|
+Z14 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Baseline_v2.3/mips_cpu/mips_core|D:/Baseline_v2.3/mips_cpu/mips_core/alu.sv|
+!i113 1
+Z15 o-sv -work work
+Z16 !s92 -sv -work work +incdir+D:/Baseline_v2.3/mips_cpu/mips_core
+Z17 tCvgOpt 0
+Yalu_input_ifc
+R1
+R2
+R3
+R4
+R5
+R6
+r1
+!s85 0
+!i10b 1
+!s100 ENjJI:eVd_3GKV8^8UKEV1
+IQMEjOZ`:JG4Ycmg]zX<KD2
+R7
+S1
+R0
+R8
+R9
+R10
+!i122 13
+Z18 L0 15 0
+R11
+31
+R12
+R13
+R14
+!i113 1
+R15
+R16
+R17
+Yalu_output_ifc
+R1
+R2
+R3
+R4
+R5
+R6
+r1
+!s85 0
+!i10b 1
+!s100 9ZSoLB0=Y2gfWUPf0dTlM1
+IiZaZ0nWJ9>8X;i3JBJcM10
+R7
+S1
+R0
+R8
+R9
+R10
+!i122 13
+Z19 L0 28 0
+R11
+31
+R12
+R13
+R14
+!i113 1
+R15
+R16
+R17
+Yalu_pass_through_ifc
+R1
+R2
+R3
+Z20 DXx4 work 28 mips_core_interfaces_sv_unit 0 22 Kn7K5Rc:_6Wd9]iD;YT]l2
+Z21 !s110 1617850233
+R6
+r1
+!s85 0
+!i10b 1
+!s100 k4]2]:9T_9zLQnG?Mle`61
+ITmo562=Lm=ISBOoeI@UhM2
+Z22 !s105 mips_core_interfaces_sv_unit
+S1
+R0
+R8
+Z23 8D:/Baseline_v2.3/mips_cpu/mips_core/mips_core_interfaces.sv
+Z24 FD:/Baseline_v2.3/mips_cpu/mips_core/mips_core_interfaces.sv
+!i122 5
+L0 49 0
+R11
+31
+Z25 !s108 1617850233.000000
+Z26 !s107 D:/Baseline_v2.3/mips_cpu/mips_core/../mips_cpu.svh|D:/Baseline_v2.3/mips_cpu/mips_core/mips_core.svh|D:/Baseline_v2.3/mips_cpu/mips_core/mips_core_interfaces.sv|
+Z27 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Baseline_v2.3/mips_cpu/mips_core|D:/Baseline_v2.3/mips_cpu/mips_core/mips_core_interfaces.sv|
+!i113 1
+R15
+R16
+R17
+Xalu_sv_unit
+R1
+R2
+R3
+R5
+V:A126WS@hBHTzbmk>G45K1
+r1
+!s85 0
+!i10b 1
+!s100 4H5Wl7F>D^EDebWSMN;DM1
+I:A126WS@hBHTzbmk>G45K1
+!i103 1
+S1
+R0
+R8
+R9
+R10
+Z28 FD:/Baseline_v2.3/mips_cpu/mips_core/mips_core.svh
+Z29 FD:/Baseline_v2.3/mips_cpu/mips_core/../mips_cpu.svh
+!i122 13
+Z30 L0 4 0
+R11
+31
+R12
+R13
+R14
+!i113 1
+R15
+R16
+R17
+vbranch_controller
+R1
+R2
+R3
+Z31 DXx4 work 25 branch_controller_sv_unit 0 22 `zA[n^Q[88Xm>6FOh5ghz3
+R5
+R6
+r1
+!s85 0
+!i10b 1
+!s100 Vah3?_lBV`6;O93DHG=J<0
+IiJBQ4:[OT^;CW]ImXja_<1
+Z32 !s105 branch_controller_sv_unit
+S1
+R0
+R8
+Z33 8D:/Baseline_v2.3/mips_cpu/mips_core/branch_controller.sv
+Z34 FD:/Baseline_v2.3/mips_cpu/mips_core/branch_controller.sv
+!i122 12
+L0 13 39
+R11
+31
+R12
+Z35 !s107 D:/Baseline_v2.3/mips_cpu/mips_core/../mips_cpu.svh|D:/Baseline_v2.3/mips_cpu/mips_core/mips_core.svh|D:/Baseline_v2.3/mips_cpu/mips_core/branch_controller.sv|
+Z36 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Baseline_v2.3/mips_cpu/mips_core|D:/Baseline_v2.3/mips_cpu/mips_core/branch_controller.sv|
+!i113 1
+R15
+R16
+R17
+Xbranch_controller_sv_unit
+R1
+R2
+R3
+R5
+V`zA[n^Q[88Xm>6FOh5ghz3
+r1
+!s85 0
+!i10b 1
+!s100 kNm9K32cOl4AHJYezmHU[1
+I`zA[n^Q[88Xm>6FOh5ghz3
+!i103 1
+S1
+R0
+R8
+R33
+R34
+R28
+R29
+!i122 12
+R30
+R11
+31
+R12
+R35
+R36
+!i113 1
+R15
+R16
+R17
+Ybranch_decoded_ifc
+R1
+R2
+R3
+R20
+R21
+R6
+r1
+!s85 0
+!i10b 1
+!s100 @AM?ocmnJX>Z5DWLXa9Ri0
+IE>=YG=8i@CKfT:aBODWU73
+R22
+S1
+R0
+R8
+R23
+R24
+!i122 5
+L0 35 0
+R11
+31
+R25
+R26
+R27
+!i113 1
+R15
+R16
+R17
+vbranch_predictor_2bit
+R1
+R2
+R3
+R31
+R5
+R6
+r1
+!s85 0
+!i10b 1
+!s100 ?RN4P>ZJ]?TzF3W[H?68Z1
+I7RJ8fCeAOEE?QLHe2H`m01
+R32
+S1
+R0
+R8
+R33
+R34
+!i122 12
+L0 77 57
+R11
+31
+R12
+R35
+R36
+!i113 1
+R15
+R16
+R17
+vbranch_predictor_always_not_taken
+R1
+R2
+R3
+R31
+R5
+R6
+r1
+!s85 0
+!i10b 1
+!s100 GTcJKG8<eBSnLY]FF=2dU1
+IQNgH9USCj7:CL7m^9DW6C0
+R32
+S1
+R0
+R8
+R33
+R34
+!i122 12
+L0 53 23
+R11
+31
+R12
+R35
+R36
+!i113 1
+R15
+R16
+R17
+Ybranch_result_ifc
+R1
+R2
+R3
+R20
+R21
+R6
+r1
+!s85 0
+!i10b 1
+!s100 bBdXQlP1>ZWOKiDCjL@cl0
+I;V00fLDBa>ZfG[Wf:bP0B2
+R22
+S1
+R0
+R8
+R23
+R24
+!i122 5
+L0 67 0
+R11
+31
+R25
+R26
+R27
+!i113 1
+R15
+R16
+R17
+vcache_bank
+R1
+R21
+!i10b 1
+!s100 :g9@8e<:GfFK1E=B;Te?j3
+Z37 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I=ZziTP[43jXPM67XI0=l=1
+R6
+S1
+R0
+R8
+Z38 8D:/Baseline_v2.3/mips_cpu/mips_core/cache_bank.sv
+Z39 FD:/Baseline_v2.3/mips_cpu/mips_core/cache_bank.sv
+!i122 1
+L0 17 32
+R11
+r1
+!s85 0
+31
+R25
+Z40 !s107 D:/Baseline_v2.3/mips_cpu/mips_core/cache_bank.sv|
+Z41 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Baseline_v2.3/mips_cpu/mips_core|D:/Baseline_v2.3/mips_cpu/mips_core/cache_bank.sv|
+!i113 1
+R15
+R16
+R17
+vcache_bank_core
+R1
+R21
+!i10b 1
+!s100 n<UgRDWW]@HTdEB6860gj2
+R37
+Id<:Nabl:>TdhP^lj37PkC1
+R6
+S1
+R0
+R8
+R38
+R39
+!i122 1
+L0 50 18
+R11
+r1
+!s85 0
+31
+R25
+R40
+R41
+!i113 1
+R15
+R16
+R17
+Ycache_output_ifc
+R1
+R2
+R3
+R20
+R21
+R6
+r1
+!s85 0
+!i10b 1
+!s100 eb[V4:2:JiIHMAY<H0ZIR0
+I7oD21]zFCSZGc1<0lXaC;3
+R22
+S1
+R0
+R8
+R23
+R24
+!i122 5
+Z42 L0 27 0
+R11
+31
+R25
+R26
+R27
+!i113 1
+R15
+R16
+R17
+vd_cache
+R1
+R2
+R3
+Z43 DXx4 work 15 d_cache_sv_unit 0 22 d2O:[j=lPG[CH<GgVS7B31
+R5
+R6
+r1
+!s85 0
+!i10b 1
+!s100 Cb3<eiT=6iPc7?MhVVS5Q1
+IDh[Bg]^ecoA1aYo7RVK2h3
+Z44 !s105 d_cache_sv_unit
+S1
+R0
+R8
+Z45 8D:/Baseline_v2.3/mips_cpu/mips_core/d_cache.sv
+Z46 FD:/Baseline_v2.3/mips_cpu/mips_core/d_cache.sv
+!i122 11
+L0 39 307
+R11
+31
+R12
+Z47 !s107 D:/Baseline_v2.3/mips_cpu/mips_core/../mips_cpu.svh|D:/Baseline_v2.3/mips_cpu/mips_core/mips_core.svh|D:/Baseline_v2.3/mips_cpu/mips_core/d_cache.sv|
+Z48 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Baseline_v2.3/mips_cpu/mips_core|D:/Baseline_v2.3/mips_cpu/mips_core/d_cache.sv|
+!i113 1
+R15
+R16
+R17
+Yd_cache_input_ifc
+R1
+R2
+R3
+R43
+R5
+R6
+r1
+!s85 0
+!i10b 1
+!s100 h0D?<eAOJ7HUbP?d4]D0N3
+I2n@]bNc@S8o7e4GGAfM0I0
+R44
+S1
+R0
+R8
+R45
+R46
+!i122 11
+R42
+R11
+31
+R12
+R47
+R48
+!i113 1
+R15
+R16
+R17
+Yd_cache_pass_through_ifc
+R1
+R2
+R3
+R20
+R21
+R6
+r1
+!s85 0
+!i10b 1
+!s100 jX6=N8Ag@EBf9i825z=GD0
+IzI3^HbJO3FVmcibGU]LeF3
+R22
+S1
+R0
+R8
+R23
+R24
+!i122 5
+L0 77 0
+R11
+31
+R25
+R26
+R27
+!i113 1
+R15
+R16
+R17
+Xd_cache_sv_unit
+R1
+R2
+R3
+R5
+Vd2O:[j=lPG[CH<GgVS7B31
+r1
+!s85 0
+!i10b 1
+!s100 zzZcaPEST13BgkhUb?`1S3
+Id2O:[j=lPG[CH<GgVS7B31
+!i103 1
+S1
+R0
+R8
+R45
+R46
+R28
+R29
+!i122 11
+R30
+R11
+31
+R12
+R47
+R48
+!i113 1
+R15
+R16
+R17
+vdecode_stage_glue
+R1
+R2
+R3
+Z49 DXx4 work 21 glue_circuits_sv_unit 0 22 gWk1ebHGAIDj<dTC:9>_`3
+Z50 !s110 1617850235
+R6
+r1
+!s85 0
+!i10b 1
+!s100 CE[4L:WKG;jEP6j_9f=;30
+I@@bcmQFKlOL71]DF?Bn[f3
+Z51 !s105 glue_circuits_sv_unit
+S1
+R0
+R8
+Z52 8D:/Baseline_v2.3/mips_cpu/mips_core/glue_circuits.sv
+Z53 FD:/Baseline_v2.3/mips_cpu/mips_core/glue_circuits.sv
+!i122 17
+L0 13 43
+R11
+31
+Z54 !s108 1617850235.000000
+Z55 !s107 D:/Baseline_v2.3/mips_cpu/mips_core/../mips_cpu.svh|D:/Baseline_v2.3/mips_cpu/mips_core/mips_core.svh|D:/Baseline_v2.3/mips_cpu/mips_core/glue_circuits.sv|
+Z56 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Baseline_v2.3/mips_cpu/mips_core|D:/Baseline_v2.3/mips_cpu/mips_core/glue_circuits.sv|
+!i113 1
+R15
+R16
+R17
+vdecoder
+R1
+R2
+R3
+Z57 DXx4 work 15 decoder_sv_unit 0 22 Gh7kX1?_0U<3lH0a:;4UY0
+R5
+R6
+r1
+!s85 0
+!i10b 1
+!s100 Al`4K[G[G7dV=lMoU7n:52
+I5DF6]fiB7i;J@KT;f0KYS2
+Z58 !s105 decoder_sv_unit
+S1
+R0
+R8
+Z59 8D:/Baseline_v2.3/mips_cpu/mips_core/decoder.sv
+Z60 FD:/Baseline_v2.3/mips_cpu/mips_core/decoder.sv
+!i122 10
+L0 49 512
+R11
+31
+R12
+Z61 !s107 D:/Baseline_v2.3/mips_cpu/mips_core/../mips_cpu.svh|D:/Baseline_v2.3/mips_cpu/mips_core/mips_core.svh|D:/Baseline_v2.3/mips_cpu/mips_core/decoder.sv|
+Z62 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Baseline_v2.3/mips_cpu/mips_core|D:/Baseline_v2.3/mips_cpu/mips_core/decoder.sv|
+!i113 1
+R15
+R16
+R17
+Ydecoder_output_ifc
+R1
+R2
+R3
+R57
+R5
+R6
+r1
+!s85 0
+!i10b 1
+!s100 WCEU8@IH>I_YmSV:CEQlE2
+ICe=cMNSmzlR8K4fAbl>eH0
+R58
+S1
+R0
+R8
+R59
+R60
+!i122 10
+L0 14 0
+R11
+31
+R12
+R61
+R62
+!i113 1
+R15
+R16
+R17
+Xdecoder_sv_unit
+R1
+R2
+R3
+R5
+VGh7kX1?_0U<3lH0a:;4UY0
+r1
+!s85 0
+!i10b 1
+!s100 Z_NBJR:XZ45e:HA>fKM2]2
+IGh7kX1?_0U<3lH0a:;4UY0
+!i103 1
+S1
+R0
+R8
+R59
+R60
+R28
+R29
+!i122 10
+R30
+R11
+31
+R12
+R61
+R62
+!i113 1
+R15
+R16
+R17
+vex_stage_glue
+R1
+R2
+R3
+R49
+R50
+R6
+r1
+!s85 0
+!i10b 1
+!s100 k^T@A8GYnejeE>Mn?E>o20
+IO0EMPNT@1ZGe0lflb?zo62
+R51
+S1
+R0
+R8
+R52
+R53
+!i122 17
+L0 57 35
+R11
+31
+R54
+R55
+R56
+!i113 1
+R15
+R16
+R17
+vfast_sdram
+R1
+R2
+DXx4 work 18 fast_sdram_sv_unit 0 22 CilNV^OdDB21]OZ^QAJ`=3
+Z63 !s110 1617850649
+R6
+r1
+!s85 0
+!i10b 1
+!s100 Vb`DTME<^<AJSD4lKOnhD2
+IJlkZ7M2_in0izbO8_Te5J2
+!s105 fast_sdram_sv_unit
+S1
+R0
+Z64 w1617646762
+Z65 8../../fast_sdram.sv
+Z66 F../../fast_sdram.sv
+!i122 24
+L0 18 245
+R11
+31
+Z67 !s108 1617850649.000000
+!s107 ..\..\mips_cpu.svh|../../fast_sdram.sv|
+Z68 !s90 -reportprogress|300|-work|work|../../fast_sdram.sv|
+!i113 1
+Z69 o-work work
+R17
+Xfast_sdram_sv_unit
+R1
+R2
+R63
+VCilNV^OdDB21]OZ^QAJ`=3
+r1
+!s85 0
+!i10b 1
+!s100 eQm5SWF1:3?Ua[5WBS9Ke3
+ICilNV^OdDB21]OZ^QAJ`=3
+!i103 1
+S1
+R0
+R64
+R65
+R66
+Z70 F..\..\mips_cpu.svh
+!i122 24
+R30
+R11
+31
+R67
+Z71 !s107 ..\..\mips_cpu.svh|../../fast_sdram.sv|
+R68
+!i113 1
+R69
+R17
+vfast_testbench
+R1
+R2
+DXx4 work 22 fast_testbench_sv_unit 0 22 n9aWW1YWZWX[kLzCEU_7o1
+R63
+R6
+r1
+!s85 0
+!i10b 1
+!s100 :7<OXEKYDSEYAD0Cf[XR`0
+IQO0Vb_l3bAbod1Kin5;SQ0
+!s105 fast_testbench_sv_unit
+S1
+R0
+R64
+Z72 8../../fast_testbench.sv
+Z73 F../../fast_testbench.sv
+!i122 23
+L0 18 58
+R11
+31
+R67
+Z74 !s107 ..\..\mips_cpu.svh|../../fast_testbench.sv|
+Z75 !s90 -reportprogress|300|-work|work|../../fast_testbench.sv|
+!i113 1
+R69
+R17
+Xfast_testbench_sv_unit
+R1
+R2
+R63
+Vn9aWW1YWZWX[kLzCEU_7o1
+r1
+!s85 0
+!i10b 1
+!s100 FVYm:l`a>QmS]iQBY<S922
+In9aWW1YWZWX[kLzCEU_7o1
+!i103 1
+S1
+R0
+R64
+R72
+R73
+R70
+!i122 23
+R30
+R11
+31
+R67
+R74
+R75
+!i113 1
+R69
+R17
+vfetch_unit
+R1
+R2
+R3
+DXx4 work 18 fetch_unit_sv_unit 0 22 ;bjMa9TKX?B5mV]QCX1TB2
+R5
+R6
+r1
+!s85 0
+!i10b 1
+!s100 ?OmUb9O59GHJP=KQ9S7bQ2
+IP72JdZJTgmo]Jhb45T2Dc3
+!s105 fetch_unit_sv_unit
+S1
+R0
+R8
+Z76 8D:/Baseline_v2.3/mips_cpu/mips_core/fetch_unit.sv
+Z77 FD:/Baseline_v2.3/mips_cpu/mips_core/fetch_unit.sv
+!i122 9
+L0 18 37
+R11
+31
+R12
+Z78 !s107 D:/Baseline_v2.3/mips_cpu/mips_core/../mips_cpu.svh|D:/Baseline_v2.3/mips_cpu/mips_core/mips_core.svh|D:/Baseline_v2.3/mips_cpu/mips_core/fetch_unit.sv|
+Z79 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Baseline_v2.3/mips_cpu/mips_core|D:/Baseline_v2.3/mips_cpu/mips_core/fetch_unit.sv|
+!i113 1
+R15
+R16
+R17
+Xfetch_unit_sv_unit
+R1
+R2
+R3
+R5
+V;bjMa9TKX?B5mV]QCX1TB2
+r1
+!s85 0
+!i10b 1
+!s100 cRMCmdIV]QmUGFPP=KhG62
+I;bjMa9TKX?B5mV]QCX1TB2
+!i103 1
+S1
+R0
+R8
+R76
+R77
+R28
+R29
+!i122 9
+R30
+R11
+31
+R12
+R78
+R79
+!i113 1
+R15
+R16
+R17
+vforward_unit
+R1
+R2
+R3
+DXx4 work 20 forward_unit_sv_unit 0 22 ;XKBGX9JXJbUYhBA492CB1
+R50
+R6
+r1
+!s85 0
+!i10b 1
+!s100 hWYIgWnEEJz74_3kzNF4Y3
+I9D@C8WDdeYjj7>Q[0HeY72
+!s105 forward_unit_sv_unit
+S1
+R0
+R8
+Z80 8D:/Baseline_v2.3/mips_cpu/mips_core/forward_unit.sv
+Z81 FD:/Baseline_v2.3/mips_cpu/mips_core/forward_unit.sv
+!i122 18
+L0 16 91
+R11
+31
+R54
+Z82 !s107 D:/Baseline_v2.3/mips_cpu/mips_core/../mips_cpu.svh|D:/Baseline_v2.3/mips_cpu/mips_core/mips_core.svh|D:/Baseline_v2.3/mips_cpu/mips_core/forward_unit.sv|
+Z83 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Baseline_v2.3/mips_cpu/mips_core|D:/Baseline_v2.3/mips_cpu/mips_core/forward_unit.sv|
+!i113 1
+R15
+R16
+R17
+Xforward_unit_sv_unit
+R1
+R2
+R3
+R50
+V;XKBGX9JXJbUYhBA492CB1
+r1
+!s85 0
+!i10b 1
+!s100 g;JHQfFmcFo@I[=Yk6lWO1
+I;XKBGX9JXJbUYhBA492CB1
+!i103 1
+S1
+R0
+R8
+R80
+R81
+R28
+R29
+!i122 18
+R30
+R11
+31
+R54
+R82
+R83
+!i113 1
+R15
+R16
+R17
+Xglue_circuits_sv_unit
+R1
+R2
+R3
+R50
+VgWk1ebHGAIDj<dTC:9>_`3
+r1
+!s85 0
+!i10b 1
+!s100 >[H_SVcN7_[bX_4HHL5ZD2
+IgWk1ebHGAIDj<dTC:9>_`3
+!i103 1
+S1
+R0
+R8
+R52
+R53
+R28
+R29
+!i122 17
+R30
+R11
+31
+R54
+R55
+R56
+!i113 1
+R15
+R16
+R17
+Yhazard_control_ifc
+R1
+R2
+R3
+R20
+R21
+R6
+r1
+!s85 0
+!i10b 1
+!s100 YF^WJ:40@kSA:CBYY0HEe0
+IMjQ0bQVA>XC=4<`4Hzg?U3
+R22
+S1
+R0
+R8
+R23
+R24
+!i122 5
+L0 97 0
+R11
+31
+R25
+R26
+R27
+!i113 1
+R15
+R16
+R17
+vhazard_controller
+R1
+R2
+R3
+DXx4 work 25 hazard_controller_sv_unit 0 22 ?5fGclBP;XEbg=C=lXZ683
+R50
+R6
+r1
+!s85 0
+!i10b 1
+!s100 [FPQ^LYchi3INJk9lmzTS2
+I6biR>IF=K`cSgo7WRA0n[2
+!s105 hazard_controller_sv_unit
+S1
+R0
+R8
+Z84 8D:/Baseline_v2.3/mips_cpu/mips_core/hazard_controller.sv
+Z85 FD:/Baseline_v2.3/mips_cpu/mips_core/hazard_controller.sv
+!i122 16
+L0 16 164
+R11
+31
+R54
+Z86 !s107 D:/Baseline_v2.3/mips_cpu/mips_core/../mips_cpu.svh|D:/Baseline_v2.3/mips_cpu/mips_core/mips_core.svh|D:/Baseline_v2.3/mips_cpu/mips_core/hazard_controller.sv|
+Z87 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Baseline_v2.3/mips_cpu/mips_core|D:/Baseline_v2.3/mips_cpu/mips_core/hazard_controller.sv|
+!i113 1
+R15
+R16
+R17
+Xhazard_controller_sv_unit
+R1
+R2
+R3
+R50
+V?5fGclBP;XEbg=C=lXZ683
+r1
+!s85 0
+!i10b 1
+!s100 EKJfJIeAbiXX40APWV>Rh3
+I?5fGclBP;XEbg=C=lXZ683
+!i103 1
+S1
+R0
+R8
+R84
+R85
+R28
+R29
+!i122 16
+R30
+R11
+31
+R54
+R86
+R87
+!i113 1
+R15
+R16
+R17
+vi_cache
+R1
+R2
+R3
+DXx4 work 15 i_cache_sv_unit 0 22 CgMTOHYQ0XaAn9okX5MmC3
+R21
+R6
+r1
+!s85 0
+!i10b 1
+!s100 9=84>A[HE7I2c1=A?<jR`2
+IMbDF^I?=I>KUIdTMZjkOK2
+!s105 i_cache_sv_unit
+S1
+R0
+R8
+Z88 8D:/Baseline_v2.3/mips_cpu/mips_core/i_cache.sv
+Z89 FD:/Baseline_v2.3/mips_cpu/mips_core/i_cache.sv
+!i122 8
+L0 27 214
+R11
+31
+R25
+Z90 !s107 D:/Baseline_v2.3/mips_cpu/mips_core/../mips_cpu.svh|D:/Baseline_v2.3/mips_cpu/mips_core/mips_core.svh|D:/Baseline_v2.3/mips_cpu/mips_core/i_cache.sv|
+Z91 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Baseline_v2.3/mips_cpu/mips_core|D:/Baseline_v2.3/mips_cpu/mips_core/i_cache.sv|
+!i113 1
+R15
+R16
+R17
+Xi_cache_sv_unit
+R1
+R2
+R3
+R21
+VCgMTOHYQ0XaAn9okX5MmC3
+r1
+!s85 0
+!i10b 1
+!s100 84:0kS`Kf81=mmBCPJgb00
+ICgMTOHYQ0XaAn9okX5MmC3
+!i103 1
+S1
+R0
+R8
+R88
+R89
+R28
+R29
+!i122 8
+R30
+R11
+31
+R25
+R90
+R91
+!i113 1
+R15
+R16
+R17
+Yllsc_input_ifc
+R1
+R2
+R3
+Z92 DXx4 work 19 llsc_module_sv_unit 0 22 gz<Pk2dO>AY4Z;6R0]JnQ0
+R21
+R6
+r1
+!s85 0
+!i10b 1
+!s100 I4bko@a@HMQ@ecQ9F7YXi0
+IU<]ZhIbhUgd><k291bdUm0
+Z93 !s105 llsc_module_sv_unit
+S1
+R0
+R8
+Z94 8D:/Baseline_v2.3/mips_cpu/mips_core/llsc_module.sv
+Z95 FD:/Baseline_v2.3/mips_cpu/mips_core/llsc_module.sv
+!i122 4
+Z96 L0 11 0
+R11
+31
+R25
+Z97 !s107 D:/Baseline_v2.3/mips_cpu/mips_core/../mips_cpu.svh|D:/Baseline_v2.3/mips_cpu/mips_core/mips_core.svh|D:/Baseline_v2.3/mips_cpu/mips_core/llsc_module.sv|
+Z98 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Baseline_v2.3/mips_cpu/mips_core|D:/Baseline_v2.3/mips_cpu/mips_core/llsc_module.sv|
+!i113 1
+R15
+R16
+R17
+vllsc_module
+R1
+R2
+R3
+R92
+R21
+R6
+r1
+!s85 0
+!i10b 1
+!s100 @:C_Qz1KRBNMb8jQ732o;1
+IF?Ud;RWnMTFN?1?PF1g030
+R93
+S1
+R0
+R8
+R94
+R95
+!i122 4
+L0 28 29
+R11
+31
+R25
+R97
+R98
+!i113 1
+R15
+R16
+R17
+Xllsc_module_sv_unit
+R1
+R2
+R3
+R21
+Vgz<Pk2dO>AY4Z;6R0]JnQ0
+r1
+!s85 0
+!i10b 1
+!s100 6=b^4hliZgaiof:TOeGk21
+Igz<Pk2dO>AY4Z;6R0]JnQ0
+!i103 1
+S1
+R0
+R8
+R94
+R95
+R28
+R29
+!i122 4
+R30
+R11
+31
+R25
+R97
+R98
+!i113 1
+R15
+R16
+R17
+Yllsc_output_ifc
+R1
+R2
+R3
+R92
+R21
+R6
+r1
+!s85 0
+!i10b 1
+!s100 NRaPDTfcl19_04h3Ze0O=0
+I7k?^cm4PFJWSU0S3^R?iK2
+R93
+S1
+R0
+R8
+R94
+R95
+!i122 4
+L0 21 0
+R11
+31
+R25
+R97
+R98
+!i113 1
+R15
+R16
+R17
+Yload_pc_ifc
+R1
+R2
+R3
+R20
+R21
+R6
+r1
+!s85 0
+!i10b 1
+!s100 XiBNEPLC1^iT>T11cPh]z3
+I6UJRPnnY;R9zMUKcPFcog3
+R22
+S1
+R0
+R8
+R23
+R24
+!i122 5
+Z99 L0 12 0
+R11
+31
+R25
+R26
+R27
+!i113 1
+R15
+R16
+R17
+Ymem_read_ifc
+R1
+R2
+Z100 DXx4 work 25 memory_interfaces_sv_unit 0 22 DYIReSCi[T_DB^=e7eAj01
+R21
+R6
+r1
+!s85 0
+!i10b 1
+!s100 5J[Tbl=TWCBJLDACU2M=X2
+I8`En<FOWH6LfK`A^N^C090
+Z101 !s105 memory_interfaces_sv_unit
+S1
+R0
+R64
+Z102 8D:/Baseline_v2.3/mips_cpu/memory_interfaces.sv
+Z103 FD:/Baseline_v2.3/mips_cpu/memory_interfaces.sv
+!i122 7
+R19
+R11
+31
+R25
+Z104 !s107 D:/Baseline_v2.3/mips_cpu/mips_cpu.svh|D:/Baseline_v2.3/mips_cpu/memory_interfaces.sv|
+Z105 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Baseline_v2.3/mips_cpu|D:/Baseline_v2.3/mips_cpu/memory_interfaces.sv|
+!i113 1
+R15
+Z106 !s92 -sv -work work +incdir+D:/Baseline_v2.3/mips_cpu
+R17
+vmem_stage_glue
+R1
+R2
+R3
+R49
+R50
+R6
+r1
+!s85 0
+!i10b 1
+!s100 ENanV1K0H5=5<hQYHglaD1
+I0BzYV_cCCR=UgS?IeLnS_2
+R51
+S1
+R0
+R8
+R52
+R53
+!i122 17
+L0 93 20
+R11
+31
+R54
+R55
+R56
+!i113 1
+R15
+R16
+R17
+Ymem_write_ifc
+R1
+R2
+R100
+R21
+R6
+r1
+!s85 0
+!i10b 1
+!s100 zOXjJm>8:`7QdjGL`Zm0N3
+IV]1h]S;JE5gz;Colo7oEe0
+R101
+S1
+R0
+R64
+R102
+R103
+!i122 7
+R99
+R11
+31
+R25
+R104
+R105
+!i113 1
+R15
+R106
+R17
+Xmemory_interfaces_sv_unit
+R1
+R2
+R21
+VDYIReSCi[T_DB^=e7eAj01
+r1
+!s85 0
+!i10b 1
+!s100 6`<g<M@6a[VH>VAa1LUVO1
+IDYIReSCi[T_DB^=e7eAj01
+!i103 1
+S1
+R0
+R64
+R102
+R103
+Z107 FD:/Baseline_v2.3/mips_cpu/mips_cpu.svh
+!i122 7
+R30
+R11
+31
+R25
+R104
+R105
+!i113 1
+R15
+R106
+R17
+vmips_core
+R1
+R2
+R3
+DXx4 work 17 mips_core_sv_unit 0 22 embdbKGzDTzR1]5nhNe162
+R50
+R6
+r1
+!s85 0
+!i10b 1
+!s100 <W1^h5]:MX62P1z@eNj>R3
+IJkgzBJ<MRX[L?7H=a:kh02
+!s105 mips_core_sv_unit
+S1
+R0
+R8
+Z108 8D:/Baseline_v2.3/mips_cpu/mips_core/mips_core.sv
+Z109 FD:/Baseline_v2.3/mips_cpu/mips_core/mips_core.sv
+!i122 19
+L0 12 331
+R11
+31
+R54
+Z110 !s107 D:/Baseline_v2.3/mips_cpu/mips_core/../mips_cpu.svh|D:/Baseline_v2.3/mips_cpu/mips_core/mips_core.svh|D:/Baseline_v2.3/mips_cpu/mips_core/mips_core.sv|
+Z111 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Baseline_v2.3/mips_cpu/mips_core|D:/Baseline_v2.3/mips_cpu/mips_core/mips_core.sv|
+!i113 1
+R15
+R16
+R17
+Xmips_core_interfaces_sv_unit
+R1
+R2
+R3
+R21
+VKn7K5Rc:_6Wd9]iD;YT]l2
+r1
+!s85 0
+!i10b 1
+!s100 >J3]mozW3Adi0Al?ba3KC0
+IKn7K5Rc:_6Wd9]iD;YT]l2
+!i103 1
+S1
+R0
+R8
+R23
+R24
+R28
+R29
+!i122 5
+R30
+R11
+31
+R25
+R26
+R27
+!i113 1
+R15
+R16
+R17
+Xmips_core_pkg
+R1
+R21
+!i10b 1
+!s100 A68ZSlb5DnBfoOD]Y[mSB2
+R37
+I=L]B5NoPPFGX9oi^BJQJC3
+V=L]B5NoPPFGX9oi^BJQJC3
+S1
+R0
+R8
+8D:/Baseline_v2.3/mips_cpu/mips_core/mips_core_pkg.sv
+FD:/Baseline_v2.3/mips_cpu/mips_core/mips_core_pkg.sv
+!i122 2
+R96
+R11
+r1
+!s85 0
+31
+R25
+!s107 D:/Baseline_v2.3/mips_cpu/mips_core/mips_core_pkg.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Baseline_v2.3/mips_cpu/mips_core|D:/Baseline_v2.3/mips_cpu/mips_core/mips_core_pkg.sv|
+!i113 1
+R15
+R16
+R17
+Xmips_core_sv_unit
+R1
+R2
+R3
+R50
+VembdbKGzDTzR1]5nhNe162
+r1
+!s85 0
+!i10b 1
+!s100 fGKdigQ0^NlHeO^cAbF=n1
+IembdbKGzDTzR1]5nhNe162
+!i103 1
+S1
+R0
+R8
+R108
+R109
+R28
+R29
+!i122 19
+R30
+R11
+31
+R54
+R110
+R111
+!i113 1
+R15
+R16
+R17
+vmips_cpu
+R1
+R2
+DXx4 work 16 mips_cpu_sv_unit 0 22 1TTCz77LoDL>8e=gBMaNB1
+R50
+R6
+r1
+!s85 0
+!i10b 1
+!s100 FG>XFiLDVPRH8<jl;HXG53
+I11zEP><`Si8BMbc1AcBiE0
+!s105 mips_cpu_sv_unit
+S1
+R0
+R64
+Z112 8D:/Baseline_v2.3/mips_cpu/mips_cpu.sv
+Z113 FD:/Baseline_v2.3/mips_cpu/mips_cpu.sv
+!i122 20
+L0 21 131
+R11
+31
+R54
+Z114 !s107 D:/Baseline_v2.3/mips_cpu/mips_cpu.svh|D:/Baseline_v2.3/mips_cpu/mips_cpu.sv|
+Z115 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Baseline_v2.3/mips_cpu|D:/Baseline_v2.3/mips_cpu/mips_cpu.sv|
+!i113 1
+R15
+R106
+R17
+Xmips_cpu_pkg
+R1
+R21
+!i10b 1
+!s100 6m4:`S7=h0MCg71MgjZ9M3
+R37
+IT:nSBB<=UbJi[O>zl`=Xo0
+VT:nSBB<=UbJi[O>zl`=Xo0
+S1
+R0
+R64
+8D:/Baseline_v2.3/mips_cpu/mips_cpu_pkg.sv
+FD:/Baseline_v2.3/mips_cpu/mips_cpu_pkg.sv
+!i122 3
+L0 9 0
+R11
+r1
+!s85 0
+31
+R25
+!s107 D:/Baseline_v2.3/mips_cpu/mips_cpu_pkg.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Baseline_v2.3/mips_cpu|D:/Baseline_v2.3/mips_cpu/mips_cpu_pkg.sv|
+!i113 1
+R15
+R106
+R17
+Xmips_cpu_sv_unit
+R1
+R2
+R50
+V1TTCz77LoDL>8e=gBMaNB1
+r1
+!s85 0
+!i10b 1
+!s100 a_WY^[nXG<zHQHaB32FCS3
+I1TTCz77LoDL>8e=gBMaNB1
+!i103 1
+S1
+R0
+R64
+R112
+R113
+R107
+!i122 20
+R30
+R11
+31
+R54
+R114
+R115
+!i113 1
+R15
+R106
+R17
+Ypass_done_ifc
+R1
+R2
+DXx4 work 27 pass_done_interface_sv_unit 0 22 Vn;L4>^U]CNMlk?5So=eD1
+R21
+R6
+r1
+!s85 0
+!i10b 1
+!s100 PBTTE7N[6_3Jz<LoNEeKK2
+ITPNY6J>V4hEh1:FACVd[T3
+!s105 pass_done_interface_sv_unit
+S1
+R0
+R64
+Z116 8D:/Baseline_v2.3/mips_cpu/pass_done_interface.sv
+Z117 FD:/Baseline_v2.3/mips_cpu/pass_done_interface.sv
+!i122 6
+R18
+R11
+31
+R25
+Z118 !s107 D:/Baseline_v2.3/mips_cpu/mips_cpu.svh|D:/Baseline_v2.3/mips_cpu/pass_done_interface.sv|
+Z119 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Baseline_v2.3/mips_cpu|D:/Baseline_v2.3/mips_cpu/pass_done_interface.sv|
+!i113 1
+R15
+R106
+R17
+Xpass_done_interface_sv_unit
+R1
+R2
+R21
+VVn;L4>^U]CNMlk?5So=eD1
+r1
+!s85 0
+!i10b 1
+!s100 ]1;cSR6cX?hPkd]?4P5VW1
+IVn;L4>^U]CNMlk?5So=eD1
+!i103 1
+S1
+R0
+R64
+R116
+R117
+R107
+!i122 6
+R30
+R11
+31
+R25
+R118
+R119
+!i113 1
+R15
+R106
+R17
+Ypc_ifc
+R1
+R2
+R3
+R20
+R21
+R6
+r1
+!s85 0
+!i10b 1
+!s100 _JT5S6:fl0NcKE4>z9TUb2
+IAEOiN`bNmjkU^Zoz[U[4T3
+R22
+S1
+R0
+R8
+R23
+R24
+!i122 5
+L0 20 0
+R11
+31
+R25
+R26
+R27
+!i113 1
+R15
+R16
+R17
+Xpipeline_registers_sv_unit
+R1
+R2
+R3
+R5
+VI;eaNiA440RgEnkPUkEfj3
+r1
+!s85 0
+!i10b 1
+!s100 93=]AYe?o<3[8BAOU7GBH1
+II;eaNiA440RgEnkPUkEfj3
+!i103 1
+S1
+R0
+R8
+Z120 8D:/Baseline_v2.3/mips_cpu/mips_core/pipeline_registers.sv
+Z121 FD:/Baseline_v2.3/mips_cpu/mips_core/pipeline_registers.sv
+R28
+R29
+!i122 15
+R30
+R11
+31
+R12
+Z122 !s107 D:/Baseline_v2.3/mips_cpu/mips_core/../mips_cpu.svh|D:/Baseline_v2.3/mips_cpu/mips_core/mips_core.svh|D:/Baseline_v2.3/mips_cpu/mips_core/pipeline_registers.sv|
+Z123 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Baseline_v2.3/mips_cpu/mips_core|D:/Baseline_v2.3/mips_cpu/mips_core/pipeline_registers.sv|
+!i113 1
+R15
+R16
+R17
+vpr_d2e
+R1
+R2
+R3
+Z124 DXx4 work 26 pipeline_registers_sv_unit 0 22 I;eaNiA440RgEnkPUkEfj3
+R5
+R6
+r1
+!s85 0
+!i10b 1
+!s100 H4R55<H0bm?BY^XYY71Y?2
+IDDkk06Q8zMB6Oh4YSAaQg0
+Z125 !s105 pipeline_registers_sv_unit
+S1
+R0
+R8
+R120
+R121
+!i122 15
+L0 58 100
+R11
+31
+R12
+R122
+R123
+!i113 1
+R15
+R16
+R17
+vpr_e2m
+R1
+R2
+R3
+R124
+R5
+R6
+r1
+!s85 0
+!i10b 1
+!s100 aCAiz<obdi1OQg0;=RNJK0
+I3L9mL]g[G@cK>YIA85:OB0
+R125
+S1
+R0
+R8
+R120
+R121
+!i122 15
+L0 159 75
+R11
+31
+R12
+R122
+R123
+!i113 1
+R15
+R16
+R17
+vpr_i2d
+R1
+R2
+R3
+R124
+R5
+R6
+r1
+!s85 0
+!i10b 1
+!s100 <egdaod2?D4F;6HSTm25B1
+IU;0Jo]JKnD7KiHGIf2@MM2
+R125
+S1
+R0
+R8
+R120
+R121
+!i122 15
+L0 15 42
+R11
+31
+R12
+R122
+R123
+!i113 1
+R15
+R16
+R17
+vpr_m2w
+R1
+R2
+R3
+R124
+R5
+R6
+r1
+!s85 0
+!i10b 1
+!s100 GVghBO7=19o7K6RB;K=`60
+I9NIE7ekl>aJR7V;h53KFj2
+R125
+S1
+R0
+R8
+R120
+R121
+!i122 15
+L0 235 39
+R11
+31
+R12
+R122
+R123
+!i113 1
+R15
+R16
+R17
+vreg_file
+R1
+R2
+R3
+Z126 DXx4 work 16 reg_file_sv_unit 0 22 kY0@Ac:3GdTFbA?FA3AT@2
+R5
+R6
+r1
+!s85 0
+!i10b 1
+!s100 KA1WgUSK3Eh??E4UGlM4O1
+IIBj;5iSb^QbX?BO<^2DTb3
+Z127 !s105 reg_file_sv_unit
+S1
+R0
+R8
+Z128 8D:/Baseline_v2.3/mips_cpu/mips_core/reg_file.sv
+Z129 FD:/Baseline_v2.3/mips_cpu/mips_core/reg_file.sv
+!i122 14
+L0 24 26
+R11
+31
+R12
+Z130 !s107 D:/Baseline_v2.3/mips_cpu/mips_core/../mips_cpu.svh|D:/Baseline_v2.3/mips_cpu/mips_core/mips_core.svh|D:/Baseline_v2.3/mips_cpu/mips_core/reg_file.sv|
+Z131 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Baseline_v2.3/mips_cpu/mips_core|D:/Baseline_v2.3/mips_cpu/mips_core/reg_file.sv|
+!i113 1
+R15
+R16
+R17
+Yreg_file_output_ifc
+R1
+R2
+R3
+R126
+R5
+R6
+r1
+!s85 0
+!i10b 1
+!s100 Kjz^k_aQjj4]J<`iQdMH<2
+IFU7A7SRjdBSj_fNl][>kV3
+R127
+S1
+R0
+R8
+R128
+R129
+!i122 14
+L0 16 0
+R11
+31
+R12
+R130
+R131
+!i113 1
+R15
+R16
+R17
+Xreg_file_sv_unit
+R1
+R2
+R3
+R5
+VkY0@Ac:3GdTFbA?FA3AT@2
+r1
+!s85 0
+!i10b 1
+!s100 O4eC`DiH]5U]MZlMVMBKM1
+IkY0@Ac:3GdTFbA?FA3AT@2
+!i103 1
+S1
+R0
+R8
+R128
+R129
+R28
+R29
+!i122 14
+R30
+R11
+31
+R12
+R130
+R131
+!i113 1
+R15
+R16
+R17
+vsdr
+Z132 !s110 1617850294
+!i10b 1
+!s100 ]Vk9SgK<NjGgl53L?:blG1
+R37
+IjUO=FL]li0QPhCR=BAbHk3
+R6
+R0
+R8
+8../../ip/sdr_sdram/sdr.v
+F../../ip/sdr_sdram/sdr.v
+F..\..\ip\sdr_sdram\sdr_parameters.vh
+!i122 22
+L0 48 1229
+R11
+r1
+!s85 0
+31
+Z133 !s108 1617850294.000000
+!s107 ..\..\ip\sdr_sdram\sdr_parameters.vh|../../ip/sdr_sdram/sdr.v|
+!s90 -reportprogress|300|-work|work|-suppress|2902|-suppress|13388|../../ip/sdr_sdram/sdr.v|
+!i113 1
+o-suppress 2902 -suppress 13388 -work work
+R17
+vsdram
+R21
+!i10b 1
+!s100 0GeZF]Y_G]>h]7QDfifjX3
+R37
+I@7M:n6>NM8=dMGhJ;W_ak1
+R6
+R0
+w1617647111
+8D:/Baseline_v2.3/mips_cpu/sdram/simulation/sdram.v
+FD:/Baseline_v2.3/mips_cpu/sdram/simulation/sdram.v
+!i122 0
+L0 6 315
+R11
+r1
+!s85 0
+31
+R25
+!s107 D:/Baseline_v2.3/mips_cpu/sdram/simulation/sdram.v|
+!s90 -reportprogress|300|D:/Baseline_v2.3/mips_cpu/sdram/simulation/sdram.v|
+!i113 1
+R17
+vtestbench
+R1
+R2
+DXx4 work 17 testbench_sv_unit 0 22 lCTKU6[8z?g9BR5KAF:@T2
+R132
+R6
+r1
+!s85 0
+!i10b 1
+!s100 8:FVK>;CbXGOSUP@h7=>[3
+I7]eELn2:_1R615ibDFI=d1
+!s105 testbench_sv_unit
+S1
+R0
+Z134 w1617850215
+Z135 8../../testbench.sv
+Z136 F../../testbench.sv
+!i122 21
+L0 12 90
+R11
+31
+R133
+Z137 !s107 ..\..\mips_cpu.svh|../../testbench.sv|
+Z138 !s90 -reportprogress|300|-work|work|../../testbench.sv|
+!i113 1
+R69
+R17
+Xtestbench_sv_unit
+R1
+R2
+R132
+VlCTKU6[8z?g9BR5KAF:@T2
+r1
+!s85 0
+!i10b 1
+!s100 P@ID>Db`5Gk`:R8Bz9iK12
+IlCTKU6[8z?g9BR5KAF:@T2
+!i103 1
+S1
+R0
+R134
+R135
+R136
+R70
+!i122 21
+R30
+R11
+31
+R133
+R137
+R138
+!i113 1
+R69
+R17
+Ywrite_back_ifc
+R1
+R2
+R3
+R20
+R21
+R6
+r1
+!s85 0
+!i10b 1
+!s100 4ddT9n3^k9_T`448cnd:G3
+Iz0GaHXE60IEAN6kzo:fUB0
+R22
+S1
+R0
+R8
+R23
+R24
+!i122 5
+L0 88 0
+R11
+31
+R25
+R26
+R27
+!i113 1
+R15
+R16
+R17
